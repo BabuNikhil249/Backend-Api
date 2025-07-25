@@ -22,11 +22,11 @@ The **Background Tasks API** (powered by `window.requestIdleCallback()`) enables
 
 ## 📁 Project Structure
 
-/background-task-api-demo
-│
-/├── index.html # HTML UI for progress and log
-/├── style.css # Clean, responsive styles
-/└── script.js # Task queue logic using requestIdleCallback
+/background-task-api-demo<br>
+│<br>
+├── index.html # HTML UI for progress and log<br>
+├── style.css # Clean, responsive styles<br>
+└── script.js # Task queue logic using requestIdleCallback<br>
 
 
 
