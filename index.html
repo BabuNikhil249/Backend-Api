@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Background Tasks API Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Background Tasks API Demo</h1>
+    <p>Demonstration of <code>requestIdleCallback()</code> for smooth, low-priority task execution.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Task Processor</h2>
+      <p>Click the button to decode quantum filament tachyon emissions (fake, of course).</p>
+      
+      <progress id="progress" value="0"></progress>
+      
+      <div class="status">
+        Task <span id="currentTaskNumber">0</span> of <span id="totalTaskCount">0</span>
+      </div>
+
+      <button class="btn" id="startButton">Start</button>
+    </section>
+
+    <section class="card log-section">
+      <h2>Log Output</h2>
+      <div id="log" class="log-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Background Task Scheduler Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
