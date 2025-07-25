@@ -24,9 +24,9 @@ The **Background Tasks API** (powered by `window.requestIdleCallback()`) enables
 
 /background-task-api-demo
 │
-├── index.html # HTML UI for progress and log
-├── style.css # Clean, responsive styles
-└── script.js # Task queue logic using requestIdleCallback
+/├── index.html # HTML UI for progress and log
+/├── style.css # Clean, responsive styles
+/└── script.js # Task queue logic using requestIdleCallback
 
 
 
